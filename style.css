@@ -1,0 +1,165 @@
+.mainclass{
+    background-image: linear-gradient(360deg, rgba(0, 0, 0, 0.8500) 8.000%, rgba(0, 0, 0, 0.8465) 15.67%, rgba(0, 0, 0, 0.8361) 23.33%, rgba(0, 0, 0, 0.8187) 31.00%, rgba(0, 0, 0, 0.7944) 38.67%, rgba(0, 0, 0, 0.7632) 46.33%, rgba(0, 0, 0, 0.7250) 54.00%, rgba(0, 0, 0, 0.6868) 61.67%, rgba(0, 0, 0, 0.6556) 69.33%, rgba(0, 0, 0, 0.6312) 77.00%, rgba(0, 0, 0, 0.6139) 84.67%, rgba(0, 0, 0, 0.6035) 92.33%, rgba(0, 0, 0, 0.6000) 100.0%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    box-sizing: border-box;
+}
+.back img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    box-sizing: border-box;
+
+}
+.navbar{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-main{
+    height: 88px;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding-right: 110px;
+
+}
+.nav-logo{
+    height: 40px;
+    width :390px;
+    margin-left: 16px;
+}
+.nav-logo img{
+    height: 40px;
+    width: 148px;
+} 
+.nav-options{
+    height: 40px;
+    width: 800px;;
+    padding: 3px;
+    margin-left: -12px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.language{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(255,255,255);
+    box-sizing: border-box;
+    fill: currentColor;
+    padding: 0;
+    -webkit-box-align: center;
+    align-items: center;
+    display: inline-flex;
+    gap: 2px;
+    letter-spacing: normal;
+    line-height: 100%;
+    position: relative;
+    text-align: left;
+    z-index: 0;
+}
+.language select {
+    color: white;
+
+}
+.language select option{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.904);
+    border-radius: 2px;
+}
+.icon1{
+    letter-spacing: normal;
+    line-height: 100%;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(255,255,255);
+    fill: currentColor;
+    position: absolute;
+    pointer-events: none;
+    width: 1rem;
+    height: 1rem;
+    left: 0.75rem;
+    right: auto;
+    box-sizing: border-box;
+}
+.icon12{
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(255,255,255);
+    letter-spacing: normal;
+    line-height: 100%;
+    text-align: left;
+} 
+.language select{
+    padding-right: 2.25rem;
+    line-height: 1.25rem;
+    filter: opacity( 100% );
+    padding-left: 2.25rem;
+    padding-bottom: 0.375rem;
+    padding-top: 0.375rem;
+    appearance: none;
+    background: transparent;
+    background-clip: padding-box;
+    border: 0 solid transparent;
+    box-sizing: border-box;
+}
+.icon2{
+    letter-spacing: normal;
+  line-height: 100%;
+  text-align: left;
+  font-weight: 400;
+  box-sizing: border-box;
+  border: 1px solid black;
+  align-items: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  align-items: center;
+  display: flex;
+  -webkit-box-align: center;
+  position: absolute;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  font-size: 10px;
+  padding-top: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.25rem;
+  background: rgba(22,22,22,0.7);
+  padding-right: 0.75rem;
+  border-color: rgba(128,128,128,0.7);
+}
+.signin{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 12px;
+}
+.signin button{
+    color: white;
+    font-weight: 600;
+    background-color: red;
+    border: 0;
+    border-radius: 0.25rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    padding: 0.25rem 1rem;
+}
